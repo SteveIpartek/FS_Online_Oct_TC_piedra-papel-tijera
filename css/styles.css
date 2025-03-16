@@ -3,14 +3,102 @@ body {
   text-align: center;
   background-color: #f4f4f4;
 }
+
+h1{
+  color: greenyellow;
+  text-decoration:underline;
+  
+}
+
 .boton-jugada {
   background-color: #3498db;
   color: #fff;
+  margin-top: 20px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
 }
+
+.main button:last-of-type{
+
+  background-color: #cb6724;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.boton-jugada:hover{
+
+background-color: blue;
+color: #000;
+font-weight: bold; 
+
+
+}
+
+.main button:last-of-type:hover{
+
+  background-color: #623518;
+  color: #000;
+  font-weight: bold; 
+  
+  
+  }
+
+
 #resultados {
   font-size: 20px;
   margin: 20px 0;
 }
+
+.main{
+
+  background-color: #73a3a2;
+  border: #000 dashed 7px;
+
+}
+
+@keyframes increaseSize {
+  0% {
+    font-size: 16px;
+    
+  }
+  50% {
+    font-size: 32px; font-weight: bold;  /* Tamaño aumentado */
+  }
+  100% {
+    font-size: 16px;
+  }
+}
+
+.increase-size {
+  animation: increaseSize 0.5s ease-in-out;
+}
+
+
+
+h3 {
+  color: maroon;
+  animation: anih3 0.5s ease-in-out;
+}
+
+@keyframes anih3 {
+  0% {
+    font-size: 23.4px;
+  }
+  50% {
+    font-size: 46.8px; /* Tamaño aumentado */
+    font-weight: bold; 
+  }
+  100% {
+    font-size: 23.4px;
+  }
+}
+
+
+
+
